@@ -10,7 +10,7 @@ const createWindow = () => {
     },
   });
 
-  mainWindow.loadFile('dist/index.html'); // Apunta a la carpeta donde Vite genera tu build
+  mainWindow.loadFile('dist/index.html'); 
 };
 
 app.on('ready', createWindow);

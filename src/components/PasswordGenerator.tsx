@@ -1,4 +1,3 @@
-// Importamos los módulos y componentes necesarios
 import React, { useState } from 'react';
 import {
   Box,
@@ -13,7 +12,7 @@ import {
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 
 const PasswordGenerator: React.FC = () => {
-  const [length, setLength] = useState<number>(12); // Longitud de la contraseña
+  const [length, setLength] = useState<number>(12);
   const [includeNumbers, setIncludeNumbers] = useState<boolean>(true);
   const [includeSymbols, setIncludeSymbols] = useState<boolean>(true);
   const [includeUppercase, setIncludeUppercase] = useState<boolean>(true);
